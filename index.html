@@ -10,7 +10,7 @@
 
     <!-- GOOGLE FONTS -->
 
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Niramit:400,600,700|Roboto+Slab:700" rel="stylesheet">
 
     <!-- FONTAWESOME CSS -->
 
@@ -19,10 +19,68 @@
     <!-- BOOTSTRAP CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/arrow-bounce.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/menues.css">
+    <link rel="stylesheet" type="text/css" href="css/arrow-bounce.css">
 </head>
 <body>
+
+    <nav class="main-nav">
+        <div class="nav-menu-res">
+            <div class="menu-hide">
+                <ul class="menures">
+                    <li><a href="conocenos.html"><h4>HOME</h4></a></li>
+                    <li><a href="nuestrote.html"><h4>NOSOTROS</h4></a></li>
+                    <li><a href="donde.html"><h4>NOTICIAS</h4></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/ninoycancer/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <img id="menuicon" src="icons/menuicon.svg">
+            </div>
+        </div>
+        <section class="menu-fullwidth">
+        <ul id="menu">    
+            <li ><a class="menuactive" href="index.html">HOME</a></li>
+            <li ><a href="conocenos.html">NOSOTROS</a></li>
+            <li ><a href="nuestrote.html">NOTICIAS</a></li>
+        </ul>
+        </section>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="arrow bounce"><img class="i" src="icons/angle-double-down.svg"></div>
+        <div class="mySlides w3-animate-fading">
+            <div class="home__section">
+                <img class="logo__header" src="icons/logo.png">
+                <div class="home__title">
+                    <h1>Que no se vaya su sonrisa</h1>
+                    <h5>Para que tus hijos disfruten su niñez</h5>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides w3-animate-fading">
+             <div class="home__section">
+                    <img class="logo__header" src="icons/logo.png">
+             </div>
+        </div>
+        <div class="mySlides w3-animate-fading">
+             <div class="home__section"></div>
+        </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <header class="home__section">
+        <div class="home__title">
+            <h1>Que no se vaya su sonrisa</h1>
+            <h5>Para que tus hijos disfruten su niñez</h5>
+        </div>
+    </header>
 
 
 
@@ -35,6 +93,65 @@
 
 <!-- JS BOOTSTRAP -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- MENU JSCRIPT -->
+    <script type="text/javascript" src="js/menu.js"></script>
     
+<!-- ARROW BOUNCE -->
+    <script>   
+    $(window).scroll(function(){
+        $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
+      //250 is fade pixels
+      });
+    </script>
+
+
+
+<!-- script DOTS slide w3 -->
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<!-- script fade w3 -->
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000);    
+}
+</script>
 </body>
 </html>
