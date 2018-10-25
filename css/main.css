@@ -15,6 +15,10 @@ ul {
 	padding: 0;
 }
 
+a {
+	text-decoration: none!important;  /* el important va para sobrescribir el estilo de BOOTSRTAP*/
+}
+
 .row {
 	
 }
@@ -334,6 +338,10 @@ ul {
 
 .header__noticias {
 	text-align: center;
+	background-image: url(../images/noticias-header.jpg);
+	background-size: cover;
+	background-position: right;
+	height: 45vh;
 }
 
 .noticias__date {
@@ -399,3 +407,45 @@ ul {
 .post__info {
 	margin-top: 30px;
 }
+
+.post__separation {
+	width: 95%;
+	margin: 30px auto;
+	height: 1px;
+	background-color: #cccccc;
+}
+
+.side__col {
+	margin-top: 60px;
+	text-align: center;
+	background-color: #e8e8e8;
+	padding: 30px 0;
+}
+
+.side__col > h3 {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.actividades__side {
+	background-color: #82c1d1;
+	padding: 20px;
+	margin-top: 10px;
+	transition: 1s;
+	display: block;
+}
+
+.actividades__side:hover {
+	background-color: #9ddeef;
+}
+
+
+.actividades__side > h4 {
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+

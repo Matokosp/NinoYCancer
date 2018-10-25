@@ -55,6 +55,36 @@
 }
 
 
+/*NOTICIAS*/
+
+.header__noticias {
+	text-align: center;
+	background-image: url(../images/noticias-header-1200.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 60vh;
+	padding-top: 5vh;
+}
+
+.main__news {
+	border-right: 1px solid #cccccc;
+}
+
+.news__post img {
+	margin: 0 auto;
+	filter: brightness(80%) grayscale(20%);
+	transition: 1s;
+}
+
+.news__post img:hover {
+	filter: brightness(100%) grayscale(0%);
+}
+
+.side__col {
+	margin-top: 40px;
+}
+
+
 }
 
 @media (min-width: 1440px) {

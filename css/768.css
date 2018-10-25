@@ -53,6 +53,16 @@
 	font-size: 0.8em;
 }
 
+/*NOTICIAS*/
+
+.header__noticias {
+	text-align: center;
+	background-image: url(../images/noticias-header-768.jpg);
+	background-size: cover;
+	background-position: right;
+	height: 45vh;
+}
+
 }
 
 
