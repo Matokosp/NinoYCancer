@@ -96,7 +96,7 @@ ul {
 
 .logo__header {
 	margin-top: 30px;
-	width: 110px;
+	width: 130px;
 	border-radius: 5px;
 }
 
@@ -199,4 +199,57 @@ ul {
 
 .map__footer {
 	margin-top: 30px;
+}
+
+.formulario__title {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.formulario__section {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.formulario {
+	margin-top: 30px;
+	padding: 0 30px;
+}
+
+.tabla__formulario {
+	font-size: 0.9em;
+}
+
+.formulario__input {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	border: none;
+	background-color: #e4e4e4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.tabla__formulario textarea {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	background-color: #e4e4e4;
+	font-weight: 600;
+}
+
+.tabla__formulario--submit {
+	width: 45%;
+	padding: 8px;
+	margin-top: 10px;
+	border: none;
+	background-color: #82c1d1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 50px;
 }
