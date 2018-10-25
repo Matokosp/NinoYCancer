@@ -169,19 +169,32 @@ ul {
 }
 
 .footer__section {
-	background-color: #cccccc;
+	background-color: #000;
 	text-align: center;
 	padding: 40px 0px;
 }
 
 .footer__section h2 {
 	font-family: 'Roboto Slab', serif;
-	color: #606060;
+	color: #fff;
 }
 
-.info__contacto h3 {
-	color: #606060;
+.info__contacto {
+	margin-top: 20px;
+}
+
+.info__contacto h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
 	font-weight: 600;
+	font-size: 1em;
+	margin-bottom: 2px;
+}
+
+.info__contacto p {
+	margin-top: 0px;
+	font-size: 0.9em;
+	color: #fff;
 }
 
 .map__footer {
