@@ -54,7 +54,7 @@
 
 .menu-hide.show{
   right: 0px;
-  background-color: #343333;
+  background-color: #fff;
   transition: all .6s ease-in-out;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .menures li > a{
-  color: white;
+  color: #000;
 }
 
 .fa-instagram {
