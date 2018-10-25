@@ -39,7 +39,7 @@ ul {
 
 .dots {
 	position: absolute;
-	top: 80%;
+	top: 82%;
 	margin: auto;
 	left: 0;
 	right: 0;
@@ -115,6 +115,7 @@ ul {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.9em;
+	line-height: 1.3em;
 }
 
 .noticiasindex__section {
@@ -141,17 +142,48 @@ ul {
 
 .thumbnail > .caption {
 	position: absolute;
-	top: 140px;
+	top: 110px;
 	left: 0px;
 	padding: 0 60px;
+	text-align: left;
 }
 
 .caption h3 {
 	color: #fff;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 .caption p {
 	color: #fff;
+}
+
+.btn-primary {
+	border-color: #82c1d1;
+	background-color: #82c1d1;
+}
+
+ .btn-primary:hover, .btn-primary:active:hover {
+	border-color: #82c1d1;
+	background-color: #82c1d1;
+}
+
+.footer__section {
+	background-color: #cccccc;
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.footer__section h2 {
+	font-family: 'Roboto Slab', serif;
+	color: #606060;
+}
+
+.info__contacto h3 {
+	color: #606060;
+	font-weight: 600;
+}
+
+.map__footer {
+	margin-top: 30px;
 }
