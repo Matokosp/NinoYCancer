@@ -133,4 +133,11 @@
 	font-size: 0.95em;
 }
 
+/*NOTICIAS*/
+
+.header__noticias {
+	height: 70vh;
+	padding-top: 10vh;
+}
+
 }
