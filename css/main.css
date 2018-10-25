@@ -19,6 +19,10 @@ a {
 	text-decoration: none!important;  /* el important va para sobrescribir el estilo de BOOTSRTAP*/
 }
 
+a:hover {
+	color: initial!important;
+}
+
 .row {
 	
 }
