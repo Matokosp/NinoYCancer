@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -9,6 +13,10 @@ body {
 ul {
 	list-style-type: none;
 	padding: 0;
+}
+
+.row {
+	
 }
 
 /*INDEX*/
@@ -172,6 +180,7 @@ ul {
 	background-color: #000;
 	text-align: center;
 	padding: 40px 0px;
+	margin-top: 40px;
 }
 
 .footer__section h2 {
@@ -252,4 +261,71 @@ ul {
 	font-weight: 600;
 	color: #fff;
 	border-radius: 50px;
+}
+
+
+/*NOSOTROS*/
+
+.bg-nosotros {
+	background-image: url(../images/nosotros-header.jpg);
+}
+
+.quienes-somos__section {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.quienes-somos__section h2 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.mision__section {
+	margin-top: 50px;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+}
+
+.mision__description {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.mision__description h2 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.objetivos__section {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.objetivos__section > h2 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.objetivos__row {
+	margin-top: 30px;
+}
+
+.objetivos__item {
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	background-color: #82c1d1;
+	margin: 10px auto;
+	padding: 0 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.75em;
 }

@@ -44,115 +44,27 @@
         </div>
         <section class="menu-fullwidth">
         <ul id="menu">    
-            <li ><a class="menuactive" href="index.html">HOME</a></li>
+            <li ><a href="index.html">HOME</a></li>
             <li ><a href="nosotros.html">NOSOTROS</a></li>
-            <li ><a href="noticias.html">NOTICIAS</a></li>
+            <li ><a class="menuactive" href="noticias.html">NOTICIAS</a></li>
         </ul>
         <a target="_blank" href="https://www.instagram.com/ninoycancer/"><i class="fab fa-instagram ig__menu"></i></a>
         </section>
     </nav>
 
-    <div class="slideshow-container">
+    <header class="nosotros__header">
         <div class="arrow bounce"><img class="i" src="icons/angle-double-down.svg"></div>
-        <div class="mySlides w3-animate-fading">
-            <div class="header__bgimg bg1">
-                <img class="logo__header" src="icons/logo.png">
-                <div class="home__title">
-                    <h1>Que no se vaya su sonrisa</h1>
-                    <h5>Para que tus hijos disfruten su niñez</h5>
-                </div>
+        <div class="header__bgimg bg-nosotros">
+            <img class="logo__header" src="icons/logo.png">
+            <div class="home__title">
+                <h1>Juntos contra el cáncer, somos familia</h1>
             </div>
         </div>
-        <div class="mySlides w3-animate-fading">
-             <div class="header__bgimg bg2">
-                <img class="logo__header" src="icons/logo.png">
-                <div class="home__title">
-                    <h1>Terapia y rehabilitación en familia</h1>
-                    <h5>Apoyamos durante todo el proceso de tratamiento</h5>
-                </div>
-            </div>
-        </div>
-        <div class="mySlides w3-animate-fading">
-             <div class="header__bgimg bg3">
-                <img class="logo__header" src="icons/logo.png">
-                <div class="home__title">
-                    <h1>Espacios de recreación y actividades</h1>
-                    <h5>Una mejor calidad de vida para el niño durante y después de su tratamiento</h5>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-    </div>
+    </header>
 
-    <section class="container noticiasindex__section">
-        <h2>NOTICIAS</h2>
-        <div class="row noticiasindex__container">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img class="prueba" src="images/montana.jpg" alt="actividad encuentro con la montaña">
-              <div class="caption">
-                <h3>Encuentro con la montaña</h3>
-                <p>Se efectuó recientemente entre el 10 y 13 de Septiembre.</p>
-                <p><a href="http://www.ninoycancer.cl/" class="btn btn-primary" role="button">Ver</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="images/sky.jpg" alt="actividad volar con sky">
-              <div class="caption">
-                <h3>A volar con Sky</h3>
-                <p>El Miércoles 4 de Octubre fuimos a volar en el nuevo avión A320neoSky.</p>
-                <p><a href="http://www.ninoycancer.cl/" class="btn btn-primary" role="button">Ver</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="images/escuela-ski.jpg" alt="escuela de ski 2018">
-              <div class="caption">
-                <h3>Montaña de la Alegría</h3>
-                <p>Niños han podido disfrutar de su estadía en la Escuela de Montaña del Ejercito de Chile</p>
-                <p><a href="http://www.ninoycancer.cl/" class="btn btn-primary" role="button">Ver</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="images/beca.jpg" alt="niño estudiando">
-              <div class="caption">
-                <h3>Finalizó período postulación Becas de Estudio 2018</h3>
-                <p>Se otorgaron un total de 28 becas</p>
-                <p><a href="http://www.ninoycancer.cl/" class="btn btn-primary" role="button">Ver</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="images/tallarinata.jpg" alt="voluntarios en puesto de tallarinata">
-              <div class="caption">
-                <h3>Tarallinata de Amor y Sonrisas</h3>
-                <p>Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de Agosto</p>
-                <p><a href="http://www.ninoycancer.cl/" class="btn btn-primary" role="button">Ver</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="images/portada-libro.jpg" alt="portada de libro con tu apoyo yo le gano al cancer">
-              <div class="caption">
-                <h3> Ex paciente publica su libro:</h3>
-                <p>"Con tu apoyo, yo le gano al cáncer"</p>
-                <p><a href="http://www.ninoycancer.cl/" class="btn btn-primary" role="button">Ver</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
+   
+
+    
 
     <footer class="footer__section">
         <h2>Contácto</h2> 
@@ -209,6 +121,7 @@
         </div>
     </footer>
 
+
 <!-- jQuery -->
 
     <script
@@ -221,7 +134,7 @@
 
 <!-- MENU JSCRIPT -->
     <script type="text/javascript" src="js/menu.js"></script>
-    
+
 <!-- ARROW BOUNCE -->
     <script>   
     $(window).scroll(function(){
@@ -229,7 +142,5 @@
       //250 is fade pixels
       });
     </script>
-
-    <script type="text/javascript" src="js/sliderindex.js"></script>
 </body>
 </html>

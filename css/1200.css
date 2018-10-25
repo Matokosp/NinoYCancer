@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+@media (min-width: 1200px) {
+
+.dots {
+	top: 83%;
+}
+
+/*INDEX*/
+
+.bg1 {
+	background-image: url(../images/home-1200.jpg);
+}
+
+.bg2 {
+	background-image: url(../images/home-2-1200.jpg);
+}
+
+.bg3 {
+	background-image: url(../images/home-3-1200.jpg);
+}
+
+.logo__header {
+	margin-top: 50px;
+	width: 150px;
+}
+
+.home__title h1 {
+	font-size: 3.3em;
+}
+
+.home__title h5 {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+
+.thumbnail > .caption {
+	top: 180px;
+	padding: 0 40px;
+}
+
+/*NOSOTROS*/
+
+.bg-nosotros {
+	background-image: url(../images/nosotros-header-1200.jpg);
+}
+
+.mision__description {
+	margin-top: 100px;
+}
+
+.objetivos__section {
+	margin-top: 50px;
+}
+
+
+}
+
+@media (min-width: 1440px) {
+
+/*INDEX*/
+
+.logo__header {
+	margin-top: 70px;
+	width: 180px;
+}
+
+.home__title {
+	padding: 20vh 130px;
+}
+
+.home__title h1 {
+	font-size: 3.8em;
+}
+
+.home__title h5 {
+	font-size: 1.1em;
+}
+
+.thumbnail > .caption {
+	top: 150px;
+	padding: 0 50px;
+}
+
+/*NOSOTROS*/
+
+.quienes-somos__section {
+	margin-top: 80px;
+}
+
+.mision__section {
+	margin-top: 80px;
+}
+
+.mision__description {
+	margin-top: 300px;
+}
+
+.objetivos__item {
+	height: 250px;
+	width: 250px;
+	font-size: 0.95em;
+}
+
+}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+
+.dots {
+	top: 85%;
+}
+
+/*INDEX*/
+
+.bg1 {
+	background-image: url(../images/home-768.jpg);
+}
+
+.bg2 {
+	background-image: url(../images/home-2-768.jpg);
+}
+
+.bg3 {
+	background-image: url(../images/home-3-768.jpg);
+}
+
+.logo__header {
+	width: 200px;
+}
+
+.home__title {
+	padding: 25vh 130px;
+}
+
+.home__title h1 {
+	font-size: 3.5em;
+}
+
+.home__title h5 {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+.info__contacto {
+	margin-top: 100px;
+	text-align: left;
+	padding-left: 60px;
+}
+
+/*NOSOTROS*/
+
+.bg-nosotros {
+	background-image: url(../images/nosotros-header-768.jpg);
+}
+
+.objetivos__item {
+	font-size: 0.8em;
+}
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+.dots {
+	top: 88%;
+}
+
+.logo__header {
+	margin-top: 80px;
+}
+
+.home__title h1 {
+	font-size: 4.3em;
+}
+
+.home__title h5 {
+	font-size: 1.6em;
+	line-height: 1.3em;
+}
+
+.thumbnail > .caption {
+	top: 90px;
+	padding: 0 40px;
+}
+
+.caption h3 {
+	font-size: 1.3em;
+}
+
+.caption p {
+	color: #fff;
+	font-size: 0.9em;
+}
+
+}
